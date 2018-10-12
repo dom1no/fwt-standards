@@ -1,29 +1,29 @@
-#FWT: Git Standart
+# FWT: Git Standart
 
-##Workflow
+## Workflow
 
-####1. Устанавливаем [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
+#### 1. Устанавливаем [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
 * `git flow init` - все по умолчанию (жмем enter)
 * Запушить 2 ветки: `master` и `develop`
 
-####2. Начало работы над задачей
+#### 2. Начало работы над задачей
 * Перейти на `develop`
 * Создать feature - `git flow feature start [name]`
 * Работать только в своей ветке `feature/[name]`
 
-####3. Завершении работ над задачей
+#### 3. Завершении работ над задачей
 * Опубликовать ветку(если не сделали раньше) - `git flow feature publish`
 * **Отправить на ревью:**
 * Cоздать pull-request из своей `feature/[name]` в `develop`
 * Работать с замечаниями по ревью (Если на проекте нет рецензента, то рецензент - вы сами)
 
-####4. Переход в статус Готово
+#### 4. Переход в статус Готово
 * Получить статус Одобрено по ревью
 * Смержить `feature` в `develop` - `git flow feature finish`
 * Запушить `develop` - `git push`
 * Приступить к новой задаче - п.1
 
-###TL;DR
+### TL;DR
 ```
 git checkout develop
 git flow feature start [name]
@@ -34,7 +34,7 @@ git flow feature finish
 git push
 ```
 
-###FAQ
+### FAQ
 >В каких случаях создавать отдельную ветку feature?
 * Под каждую отдельную задачу: 1 задача = 1 ветка.
 
@@ -51,7 +51,7 @@ git flow feature start <name> <from_which_branch>
 git stash pop
 ```
 
-###Время релиза
+### Время релиза
 1. Перейти на `develop`
 2. Создать ветку релиза - `git flow release start 1.0`  
    Название версии без префикса  
@@ -62,7 +62,7 @@ git stash pop
 6. Пушите `develop` вместе с тэгами - `git push --tags`
 7. Пушите master - `git checkout master && git push`
 
-####Наименование веток
+#### Наименование веток
 **Case:** kebab-case  
 **Пример:** feature/nova-multisecelt
 
