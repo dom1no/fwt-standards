@@ -62,7 +62,7 @@ git stash pop
 6. Пушите `develop` вместе с тэгами - `git push --tags`
 7. Пушите master - `git checkout master && git push`
 
-### Наименование веток
+## Наименование веток
 **Case:** kebab-case  
 **Пример:** feature/nova-multisecelt
 
