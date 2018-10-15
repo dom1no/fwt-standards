@@ -2,21 +2,21 @@
 
 ## Workflow
 
-### 1. Устанавливаем [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
+#### 1. Устанавливаем [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
 * `git flow init` - все по умолчанию (жмем enter)
 * Запушить 2 ветки: `master` и `develop`
 
-### 2. Начало работы над задачей
+#### 2. Начало работы над задачей
 * Создать feature - `git flow feature start [name]`
 * Работать только в своей ветке `feature/[name]`
 
-### 3. Завершении работ над задачей
+#### 3. Завершении работ над задачей
 * Опубликовать ветку(если не сделали раньше) - `git flow feature publish`
 * **Отправить на ревью:**
     * Cоздать pull-request из своей `feature/[name]` в `develop`
     * Работать с замечаниями по ревью (Если на проекте нет рецензента, то рецензент - вы сами)
 
-### 4. Переход в статус Готово
+#### 4. Переход в статус Готово
 * Получить статус Одобрено по ревью
 * Смержить `feature` в `develop` - `git flow feature finish`
 * Запушить `develop` - `git push`
