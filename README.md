@@ -1,3 +1,13 @@
 # FWT Standards
 
-[Git Workflow](https://github.com/dom1no/fwt-standards/blob/master/git-workflow.md)
+Внутренние регламенты компании **FrameWork Team.**
+
+## Структура
+* `accepted/` - утвержденные регламенты
+* `proposed/` - черновики, предложения
+
+### Accepted
+_...скоро_
+
+### Proposed
+* [Git Workflow](accepted/git-workflow.md)
