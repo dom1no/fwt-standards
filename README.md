@@ -10,4 +10,4 @@
 _...скоро_
 
 ### Proposed
-* [Git Workflow](accepted/git-workflow.md)
+* [Git Workflow](proposed/git-workflow.md)
