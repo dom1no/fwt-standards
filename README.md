@@ -11,3 +11,13 @@ _...скоро_
 
 ### Proposed
 * [Git Workflow](proposed/git-workflow.md)
+
+#### TODO
+- [ ] Git Workflow
+- [ ] Code Style
+- [ ] Laravel
+- [ ] Vue
+- [ ] Yii
+- [ ] БД - нейминг, связи, типы...
+- [ ] Laravel Nova
+- [ ] Тесты _(не скоро)_
