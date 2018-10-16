@@ -7,13 +7,13 @@
 * `proposed/` - черновики, предложения
 
 ### Accepted
-_...скоро_
+* [Git Workflow](accepted/git-workflow.md)
 
 ### Proposed
-* [Git Workflow](proposed/git-workflow.md)
+...
 
 #### TODO
-- [ ] Git Workflow
+- [x] Git Workflow
 - [ ] Code Style
 - [ ] Laravel
 - [ ] Vue
