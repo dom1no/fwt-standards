@@ -3,7 +3,7 @@
 ## Workflow
 
 #### 1. Устанавливаем [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
-* `git flow init` - все по умолчанию (жмем enter)
+* `git flow init -d` - все настройки по умолчанию
 * Запушить 2 ветки: `master` и `develop`
 
 #### 2. Начало работы над задачей
@@ -11,24 +11,26 @@
 * Работать только в своей ветке `feature/[name]`
 
 #### 3. Завершении работ над задачей
-* Опубликовать ветку(если не сделали раньше) - `git flow feature publish`
+* Опубликовать ветку _(если не сделали раньше)_ - `git flow publish`
 * **Отправить на ревью:**
     * Создать pull-request из своей `feature/[name]` в `develop`
-    * Работать с замечаниями по ревью (Если на проекте нет рецензента, то рецензент - вы сами)
+    * Работать с замечаниями по ревью 
+    * Если на проекте нет рецензента, то рецензент - вы сами
 
 #### 4. Переход в статус Готово
 * Получить статус Одобрено по ревью
 * Смержить `feature` в `develop` - `git flow feature finish`
+    * Просто `git flow finish`, если находитесь на нужной ветке `feature`
 * Запушить `develop` - `git push`
-* Приступить к новой задаче - п.1
+* Приступить к новой задаче - п.2
 
 ### TL;DR
 ```
 git flow feature start [name]
-//commits...
-git flow feature publish (or git push)
-//create PR
-git flow feature finish
+// commits...
+git flow publish
+// create PR
+git flow finish
 git push
 ```
 
@@ -37,7 +39,7 @@ git push
 * Под каждую отдельную задачу: 1 задача = 1 ветка.
 
 >Что делать, если текущая задача ждет ревью, а хочется начать делать следующую?
-1. Cамому просмотреть свой PR.
+1. Самому просмотреть свой PR.
 2. Перейти на `develop` и начать делать новую задачу по тому же workflow.  
    **Нельзя:** начинать делать новую задачу в той же ветке  
    
@@ -62,3 +64,7 @@ git stash pop
 ## Наименование веток
 **Case:** kebab-case  
 **Пример:** `feature/nova-select`
+
+> TODO
+- [ ] Branch names
+- [ ] Commit messages
