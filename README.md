@@ -10,11 +10,12 @@
 * [Git Workflow](accepted/git-workflow.md)
 
 ### Proposed
-...
+* [PHP Code Style](proposed/php-code-style.md)
+
 
 #### TODO
 - [x] Git Workflow
-- [ ] Code Style
+- [ ] Code Style(PHP, JS)
 - [ ] Laravel
 - [ ] Vue
 - [ ] Yii
