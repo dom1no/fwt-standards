@@ -15,10 +15,10 @@
 
 #### TODO
 - [x] Git Workflow
-- [ ] Code Style(PHP, JS)
-- [ ] Laravel
-- [ ] Vue
-- [ ] Yii
+- [ ] Code Style PHP
 - [ ] БД - нейминг, связи, типы...
-- [ ] Laravel Nova
+- [ ] Laravel
+- [ ] Yii
+- [ ] Code Style JS
+- [ ] Vue
 - [ ] Тесты _(не скоро)_
