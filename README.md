@@ -11,6 +11,7 @@
 
 ### Proposed
 * [PHP Code Style](proposed/php-code-style.md)
+* [DB Naming](proposed/db-naming.md)
 
 
 #### TODO
